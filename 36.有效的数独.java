@@ -7,7 +7,7 @@
 // @lc code=start
 class Solution {
     public boolean isValidSudoku(char[][] board) {
-        
+        //test
     }
 }
 // @lc code=end
