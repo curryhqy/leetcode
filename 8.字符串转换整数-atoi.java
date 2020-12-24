@@ -24,7 +24,7 @@ class AutoMotan {
     public int sign = 1;
     public long ans = 0;
 
-    private String state = 'start';
+    private String state = "start";
     private Map<String, String[]> table = new HashMap<>() {
         {
             put("start", new String[]{"start", "signed", "in_number", "end"});
