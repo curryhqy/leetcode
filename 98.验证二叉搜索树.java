@@ -1,13 +1,12 @@
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Stack;
+import java.util.Deque;
+import java.util.LinkedList;
 
 import javax.swing.tree.TreeNode;
 
 /*
- * @lc app=leetcode.cn id=94 lang=java
+ * @lc app=leetcode.cn id=98 lang=java
  *
- * [94] 二叉树的中序遍历
+ * [98] 验证二叉搜索树
  */
 
 // @lc code=start
@@ -27,19 +26,24 @@ import javax.swing.tree.TreeNode;
  * }
  */
 class Solution {
-    public List<Integer> inorderTraversal(TreeNode root) {
-        List<Integer> res = new ArrayList<>();
-        Stack<TreeNode> stack = new Stack<>();
-        while (root != null || !stack.isEmpty()) {
+    public boolean isValidBST(TreeNode root) {
+        //二叉搜索树的中序遍历一定升序
+        Deque<TreeNode> stack = new LinkedList<>();
+        int inorder = Integer.MIN_VALUE;
+
+        while (!stack.isEmpty() || root != null) {
             while (root != null) {
                 stack.push(root);
                 root = root.left;
             }
             root = stack.pop();
-            res.add(root.val);
+            if (root.val <= inorder) {
+                return false;
+            }
+            inorder = root.val;
             root = root.right;
         }
-        return res;
+        return true;
     }
 }
 // @lc code=end
