@@ -1,8 +1,5 @@
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Stack;
-
-import javax.swing.tree.TreeNode;
 
 /*
  * @lc app=leetcode.cn id=94 lang=java
@@ -28,18 +25,30 @@ import javax.swing.tree.TreeNode;
  */
 class Solution {
     public List<Integer> inorderTraversal(TreeNode root) {
-        List<Integer> res = new ArrayList<>();
-        Stack<TreeNode> stack = new Stack<>();
-        while (root != null || !stack.isEmpty()) {
-            while (root != null) {
-                stack.push(root);
-                root = root.left;
+        List<Integer> ans = new ArrayList<>();
+        TreeNode predecessor = null;
+
+        while (root != null) {
+            if (root.left != null) {
+                predecessor = root.left;
+                //左子树最右边节点
+                while (predecessor.right != null && predecessor.right != root) {
+                    predecessor = predecessor.right;
+                }
+                if (predecessor.right == null) {
+                    predecessor.right = root;
+                    root = root.left;
+                    continue;
+                } else {
+                    ans.add(root.val);
+                    predecessor.right = null;
+                }
+            } else {
+                ans.add(root.val);
             }
-            root = stack.pop();
-            res.add(root.val);
             root = root.right;
         }
-        return res;
+        return ans;
     }
 }
 // @lc code=end

@@ -23,6 +23,7 @@ class Solution {
         int n = intervals.length;
         int[] f = new int[n];
         Arrays.fill(f, 1);
+
         for (int i = 1; i < n; i++) {
             for (int j = 0; j < i; j++) {
                 if (intervals[j][1] <= intervals[i][0]) {
@@ -30,6 +31,7 @@ class Solution {
                 }
             }
         }
+        
         return n - Arrays.stream(f).max().getAsInt();
     }
 }

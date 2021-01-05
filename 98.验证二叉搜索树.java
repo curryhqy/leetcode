@@ -1,13 +1,12 @@
+import java.util.Arrays;
 import java.util.Deque;
 import java.util.LinkedList;
-
-import javax.swing.tree.TreeNode;
-
 /*
  * @lc app=leetcode.cn id=98 lang=java
  *
  * [98] 验证二叉搜索树
  */
+import java.util.List;
 
 // @lc code=start
 /**
@@ -28,20 +27,34 @@ import javax.swing.tree.TreeNode;
 class Solution {
     public boolean isValidBST(TreeNode root) {
         //二叉搜索树的中序遍历一定升序
-        Deque<TreeNode> stack = new LinkedList<>();
-        int inorder = Integer.MIN_VALUE;
+        List<Integer> ans = new ArrayList<>();
+        TreeNode predecessor = null;
 
-        while (!stack.isEmpty() || root != null) {
-            while (root != null) {
-                stack.push(root);
-                root = root.left;
+        while (root != null) {
+            if (root.left != null) {
+                predecessor = root.left;
+                //左子树最右边节点
+                while (predecessor.right != null && predecessor.right != root) {
+                    predecessor = predecessor.right;
+                }
+                if (predecessor.right == null) {
+                    predecessor.right = root;
+                    root = root.left;
+                    continue;
+                } else {
+                    ans.add(root.val);
+                    predecessor.right = null;
+                }
+            } else {
+                ans.add(root.val);
             }
-            root = stack.pop();
-            if (root.val <= inorder) {
+            root = root.right;
+        }
+        for (int i = 0; i < ans.size() - 1; i++) {
+            int temp = ans.get(i);
+            if (temp >= ans.get(i + 1)) {
                 return false;
             }
-            inorder = root.val;
-            root = root.right;
         }
         return true;
     }

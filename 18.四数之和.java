@@ -53,13 +53,11 @@ class Solution {
             //降维
             for (int i = index; i < len - k + 1; i++) {
                 ArrayList<List<Integer>> temp = kSum(nums, target-nums[i], k-1, i+1);
-                if (temp != null) {
-                    //把先前的结果加进去
-                    for (List<Integer> t : temp) {
-                        t.add(0, nums[i]);
-                    }
-                    ans.addAll(temp);
+                //把先前的结果加进去
+                for (List<Integer> t : temp) {
+                    t.add(0, nums[i]);
                 }
+                    ans.addAll(temp);
                 while (i < len-1 && nums[i] == nums[i+1]) {
                     i++;
                 }
