@@ -1,11 +1,23 @@
+import java.util.Arrays;
+
 /*
- * @lc app=leetcode.cn id=198 lang=java
+ * @lc app=leetcode.cn id=740 lang=java
  *
- * [198] 打家劫舍
+ * [740] 删除与获得点数
  */
 
 // @lc code=start
 class Solution {
+    public int deleteAndEarn(int[] nums) {
+        int maxVal = Arrays.stream(nums).max().getAsInt();
+
+        int[] arr = new int[maxVal + 1];
+        for (int x : nums) {
+            arr[x] += x;
+        }
+        return rob(arr);
+    }
+
     public int rob(int[] nums) {
         if (nums == null || nums.length == 0) {
             return 0;
