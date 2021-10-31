@@ -33,6 +33,7 @@ static class Solution {
         out: for (String w : words) {
             int t = -1;
             for (char c : w.toCharArray()) {
+                //全部按小写处理
                 c = Character.toLowerCase(c);
                 if (t == -1) {
                     t = hash[c - 'a'];
