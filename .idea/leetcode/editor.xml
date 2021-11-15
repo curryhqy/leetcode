@@ -3,6 +3,42 @@
   <component name="LeetcodeEditor">
     <option name="projectConfig">
       <map>
+        <entry key="$PROJECT_DIR$/leetcode/leetcode/editor/cn/BaoHanMinhanShuDeZhanLcof.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/leetcode/editor/cn/doc/content/BaoHanMinhanShuDeZhanLcof.md" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/leetcode/editor/cn/BaoHanMinhanShuDeZhanLcof.java" />
+              <option name="questionId" value="100302" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/leetcode/editor/cn/BulbSwitcher.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/leetcode/editor/cn/doc/content/BulbSwitcher.md" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/leetcode/editor/cn/BulbSwitcher.java" />
+              <option name="questionId" value="319" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/leetcode/editor/cn/BulbSwitcherIi.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/leetcode/editor/cn/doc/content/BulbSwitcherIi.md" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/leetcode/editor/cn/BulbSwitcherIi.java" />
+              <option name="questionId" value="672" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/leetcode/editor/cn/BullsAndCows.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/leetcode/editor/cn/doc/content/BullsAndCows.md" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/leetcode/editor/cn/BullsAndCows.java" />
+              <option name="questionId" value="299" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/leetcode/editor/cn/CombinationSum.java">
           <value>
             <LeetcodeEditor>
@@ -12,12 +48,93 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/leetcode/editor/cn/DetectCapital.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/leetcode/editor/cn/doc/content/DetectCapital.md" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/leetcode/editor/cn/DetectCapital.java" />
+              <option name="questionId" value="520" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/leetcode/editor/cn/GuessNumberHigherOrLower.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/leetcode/editor/cn/doc/content/GuessNumberHigherOrLower.md" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/leetcode/editor/cn/GuessNumberHigherOrLower.java" />
+              <option name="questionId" value="374" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/leetcode/editor/cn/GuessNumberHigherOrLowerIi.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/leetcode/editor/cn/doc/content/GuessNumberHigherOrLowerIi.md" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/leetcode/editor/cn/GuessNumberHigherOrLowerIi.java" />
+              <option name="questionId" value="375" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/leetcode/editor/cn/KeyboardRow.java">
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/leetcode/leetcode/editor/cn/doc/content/KeyboardRow.md" />
               <option name="path" value="$PROJECT_DIR$/leetcode/leetcode/editor/cn/KeyboardRow.java" />
               <option name="questionId" value="500" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/leetcode/editor/cn/MissingNumber.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/leetcode/editor/cn/doc/content/MissingNumber.md" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/leetcode/editor/cn/MissingNumber.java" />
+              <option name="questionId" value="268" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/leetcode/editor/cn/RangeAdditionIi.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/leetcode/editor/cn/doc/content/RangeAdditionIi.md" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/leetcode/editor/cn/RangeAdditionIi.java" />
+              <option name="questionId" value="598" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/leetcode/editor/cn/ReverseNodesInKGroup.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/leetcode/editor/cn/doc/content/ReverseNodesInKGroup.md" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/leetcode/editor/cn/ReverseNodesInKGroup.java" />
+              <option name="questionId" value="25" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/leetcode/editor/cn/TeemoAttacking.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/leetcode/editor/cn/doc/content/TeemoAttacking.md" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/leetcode/editor/cn/TeemoAttacking.java" />
+              <option name="questionId" value="495" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/leetcode/editor/cn/YongLiangGeZhanShiXianDuiLieLcof.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/leetcode/editor/cn/doc/content/YongLiangGeZhanShiXianDuiLieLcof.md" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/leetcode/editor/cn/YongLiangGeZhanShiXianDuiLieLcof.java" />
+              <option name="questionId" value="100273" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/leetcode/editor/cn/ZumaGame.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/leetcode/editor/cn/doc/content/ZumaGame.md" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/leetcode/editor/cn/ZumaGame.java" />
+              <option name="questionId" value="488" />
             </LeetcodeEditor>
           </value>
         </entry>
