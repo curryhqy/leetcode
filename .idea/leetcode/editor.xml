@@ -147,6 +147,15 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/leetcode/editor/cn/TiHuanKongGeLcof.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/leetcode/editor/cn/doc/content/TiHuanKongGeLcof.md" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/leetcode/editor/cn/TiHuanKongGeLcof.java" />
+              <option name="questionId" value="100280" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/leetcode/editor/cn/YongLiangGeZhanShiXianDuiLieLcof.java">
           <value>
             <LeetcodeEditor>
@@ -162,6 +171,15 @@
               <option name="contentPath" value="$PROJECT_DIR$/leetcode/leetcode/editor/cn/doc/content/ZumaGame.md" />
               <option name="path" value="$PROJECT_DIR$/leetcode/leetcode/editor/cn/ZumaGame.java" />
               <option name="questionId" value="488" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/leetcode/editor/cn/ZuoXuanZhuanZiFuChuanLcof.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/leetcode/editor/cn/doc/content/ZuoXuanZhuanZiFuChuanLcof.md" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/leetcode/editor/cn/ZuoXuanZhuanZiFuChuanLcof.java" />
+              <option name="questionId" value="100330" />
             </LeetcodeEditor>
           </value>
         </entry>
