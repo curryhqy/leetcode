@@ -18,20 +18,23 @@ public class HeBingLiangGePaiXuDeLianBiaoLcof{
  * }
  */
 class Solution {
-    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
-        ListNode res = new ListNode();
-        ListNode pre = res;
-        while (l1 != null && l2 != null) {
-            if (l1.val <= l2.val) {
-                res.next = l1;
-                l1 = l1.next;
-            } else {
-                res.next = l2;
-                l2 = l2.next;
-            }
-            res = res.next;
+    public ListNode mergeTwoLists(ListNode a, ListNode b) {
+        if (a == null || b == null) {
+            return a == null ? b : a;
         }
-        res.next = l1 == null ? l2 : l1;
+        ListNode head = new ListNode();
+        ListNode pre = head;
+        while (a != null && b != null) {
+            if (a.val <= b.val) {
+                head.next = a;
+                a = a.next;
+            } else {
+                head.next = b;
+                b = b.next;
+            }
+            head = head.next;
+        }
+        head.next = a == null ? b : a;
         return pre.next;
     }
 }
