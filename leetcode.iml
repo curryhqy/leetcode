@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/leetcode/leetcode" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/written.examination" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Coder" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

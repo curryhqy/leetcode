@@ -84,6 +84,15 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/leetcode/editor/cn/FindTheTownJudge.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/leetcode/editor/cn/doc/content/FindTheTownJudge.md" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/leetcode/editor/cn/FindTheTownJudge.java" />
+              <option name="questionId" value="1039" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/leetcode/editor/cn/FuZaLianBiaoDeFuZhiLcof.java">
           <value>
             <LeetcodeEditor>
@@ -228,6 +237,15 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/leetcode/editor/cn/RemoveDuplicateLetters.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/leetcode/editor/cn/doc/content/RemoveDuplicateLetters.md" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/leetcode/editor/cn/RemoveDuplicateLetters.java" />
+              <option name="questionId" value="316" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/leetcode/editor/cn/ReverseLinkedList.java">
           <value>
             <LeetcodeEditor>
@@ -261,6 +279,15 @@
               <option name="contentPath" value="$PROJECT_DIR$/leetcode/leetcode/editor/cn/doc/content/SevenP8L0Z.md" />
               <option name="path" value="$PROJECT_DIR$/leetcode/leetcode/editor/cn/SevenP8L0Z.java" />
               <option name="questionId" value="1000235" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/leetcode/editor/cn/SmallestSubsequenceOfDistinctCharacters.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/leetcode/editor/cn/doc/content/SmallestSubsequenceOfDistinctCharacters.md" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/leetcode/editor/cn/SmallestSubsequenceOfDistinctCharacters.java" />
+              <option name="questionId" value="1159" />
             </LeetcodeEditor>
           </value>
         </entry>
