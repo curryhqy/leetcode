@@ -273,6 +273,15 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/leetcode/editor/cn/PushDominoes.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/leetcode/editor/cn/doc/content/PushDominoes.md" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/leetcode/editor/cn/PushDominoes.java" />
+              <option name="questionId" value="868" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/leetcode/editor/cn/RangeAdditionIi.java">
           <value>
             <LeetcodeEditor>
@@ -387,6 +396,15 @@
               <option name="contentPath" value="$PROJECT_DIR$/leetcode/leetcode/editor/cn/doc/content/VvJkup.md" />
               <option name="path" value="$PROJECT_DIR$/leetcode/leetcode/editor/cn/VvJkup.java" />
               <option name="questionId" value="1000234" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/leetcode/editor/cn/WhereWillTheBallFall.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/leetcode/editor/cn/doc/content/WhereWillTheBallFall.md" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/leetcode/editor/cn/WhereWillTheBallFall.java" />
+              <option name="questionId" value="1324" />
             </LeetcodeEditor>
           </value>
         </entry>
